@@ -57,9 +57,20 @@ html, body {
     height: 100%;
 }
 
-@main-color:pink;
 
-body{
-	background-color:@main-color;
+/*Imports*/
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Crimson+Text&display=swap');
+
+/*Font Styles*/
+@font-title:'Crimson Text', serif;
+@font-body:'Cormorant Garamond', serif;
+
+h1, h2{
+	font-family:@font-title;
 }
+
+p{
+	font-family:@font-body;
+}
+
 
