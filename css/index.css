@@ -150,6 +150,7 @@ body {
   src: local('Crimson Text Regular'), local('CrimsonText-Regular'), url(https://fonts.gstatic.com/s/crimsontext/v10/wlp2gwHKFkZgtmSR3NB0oRJfbwhW.ttf) format('truetype');
 }
 /*Font Styles*/
+/*Font Formatting*/
 h1,
 h2 {
   font-family: 'Crimson Text', serif;
@@ -157,3 +158,22 @@ h2 {
 p {
   font-family: 'Cormorant Garamond', serif;
 }
+/*Format Resume Dimensions*/
+* {
+  margin: 0;
+  padding: 0;
+}
+/*Content Formatting*/
+body {
+  max-width: 900px;
+  margin: 10%;
+}
+/*Header Formatting*/
+.header {
+  display: flex;
+}
+/*Profile Formatting*/
+/*Experience Container Formatting*/
+/*Work Experience Container Formatting*/
+/*Education Formatting*/
+/*Footer Formatting*/
