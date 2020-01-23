@@ -158,22 +158,80 @@ h2 {
 p {
   font-family: 'Cormorant Garamond', serif;
 }
+h2 {
+  font-size: 1.2rem;
+}
+p {
+  margin: 5px;
+}
 /*Format Resume Dimensions*/
+html {
+  box-sizing: border-box;
+  font-size: 90%;
+}
 * {
   margin: 0;
   padding: 0;
 }
 /*Content Formatting*/
 body {
-  max-width: 900px;
+  max-width: 612px;
+  max-height: 792px;
   margin: 10%;
+  border: black solid 2px;
+  padding: 5px;
 }
 /*Header Formatting*/
-.header {
+.header .img {
+  width: 80%;
+  height: auto;
+}
+.header .header-info {
+  display: flex;
+  justify-content: space-evenly;
+}
+@media (max-width: 500px) {
+  .header .header-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 10px 0 10px 0;
+  }
+}
+.content-container {
   display: flex;
 }
+@media (max-width: 500px) {
+  .content-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
 /*Profile Formatting*/
+.profile {
+  width: 100%;
+  margin: 0 5px 0 0;
+  padding: 10px;
+  background-color: gainsboro;
+}
 /*Experience Container Formatting*/
+.experience-container {
+  border: gainsboro solid 2px;
+  margin: 0 0 0 5px;
+  padding: 10px;
+}
+@media (max-width: 500px) {
+  .experience-container {
+    border: none;
+  }
+  .experience-container .colordiv {
+    background-color: gainsboro;
+  }
+}
 /*Work Experience Container Formatting*/
 /*Education Formatting*/
+.education {
+  margin: 10px 0 5px 0;
+}
 /*Footer Formatting*/
